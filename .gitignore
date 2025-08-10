@@ -1,0 +1,83 @@
+# ------------------------------
+# OS / Editor files
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.lock
+*.log
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# ------------------------------
+# Build / Simulation outputs
+# ------------------------------
+build/
+out/
+sim_work/
+work/
+waveforms/
+*.vcd
+*.wlf
+*.fst
+*.ucdb
+*.jou
+*.pb
+*.dmp
+*.elf
+
+# ModelSim / Questa / Riviera
+transcript
+vsim.wlf
+modelsim.ini
+
+# Vivado / Quartus / Synplify / Other EDA tools
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.str
+*.jou
+*.log
+*.rpt
+
+# Verilator / Icarus
+obj_dir/
+*.vpp
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# ------------------------------
+# Documentation builds
+# ------------------------------
+_site/
+*.html
+*.pdf
+
+# ------------------------------
+# Temp & misc
+# ------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
